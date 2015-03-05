@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 @class OverViewModel;
-@class Feeds;
+@class RowModel;
 
 @interface DropBoxContentViewController : UITableViewController
 
 @property (nonatomic,retain) OverViewModel *data;
 
-@property (nonatomic,retain) Feeds *newsRow;
+@property (nonatomic,retain) RowModel *newsRow;
 
 @end
 

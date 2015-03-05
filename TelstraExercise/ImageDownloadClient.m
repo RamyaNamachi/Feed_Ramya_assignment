@@ -4,7 +4,7 @@
 */
 
 #import "ImageDownloadClient.h"
-#import "Feeds.h"
+#import "RowModel.h"
 
 #define kAppIconSize 48
 

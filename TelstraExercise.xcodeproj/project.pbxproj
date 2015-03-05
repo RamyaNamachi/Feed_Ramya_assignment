@@ -16,7 +16,7 @@
 		A25E94B11AA5ADCC008749A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25E94B01AA5ADCC008749A6 /* Images.xcassets */; };
 		A25E94C01AA5ADCC008749A6 /* TelstraExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A25E94BF1AA5ADCC008749A6 /* TelstraExerciseTests.m */; };
 		A25E94F81AA5AE92008749A6 /* OverViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A25E94CA1AA5AE92008749A6 /* OverViewModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A25E94F91AA5AE92008749A6 /* Feeds.m in Sources */ = {isa = PBXBuildFile; fileRef = A25E94CC1AA5AE92008749A6 /* Feeds.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A25E94F91AA5AE92008749A6 /* RowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A25E94CC1AA5AE92008749A6 /* RowModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A25E94FA1AA5AE92008749A6 /* JsonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A25E94CE1AA5AE92008749A6 /* JsonTableViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A25E94FB1AA5AE92008749A6 /* DropBoxContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25E94CF1AA5AE92008749A6 /* DropBoxContentViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A25E94FC1AA5AE92008749A6 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A25E94D11AA5AE92008749A6 /* placeholder@2x.png */; };
@@ -54,8 +54,8 @@
 		A25E94C91AA5AE92008749A6 /* JsonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonTableViewCell.h; sourceTree = "<group>"; };
 		A25E94CA1AA5AE92008749A6 /* OverViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverViewModel.m; sourceTree = "<group>"; };
 		A25E94CB1AA5AE92008749A6 /* OverViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverViewModel.h; sourceTree = "<group>"; };
-		A25E94CC1AA5AE92008749A6 /* Feeds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feeds.m; sourceTree = "<group>"; };
-		A25E94CD1AA5AE92008749A6 /* Feeds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feeds.h; sourceTree = "<group>"; };
+		A25E94CC1AA5AE92008749A6 /* RowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowModel.m; sourceTree = "<group>"; };
+		A25E94CD1AA5AE92008749A6 /* RowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowModel.h; sourceTree = "<group>"; };
 		A25E94CE1AA5AE92008749A6 /* JsonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonTableViewCell.m; sourceTree = "<group>"; };
 		A25E94CF1AA5AE92008749A6 /* DropBoxContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBoxContentViewController.m; sourceTree = "<group>"; };
 		A25E94D01AA5AE92008749A6 /* DropBoxContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBoxContentViewController.h; sourceTree = "<group>"; };
@@ -172,8 +172,8 @@
 			children = (
 				A25E94CB1AA5AE92008749A6 /* OverViewModel.h */,
 				A25E94CA1AA5AE92008749A6 /* OverViewModel.m */,
-				A25E94CD1AA5AE92008749A6 /* Feeds.h */,
-				A25E94CC1AA5AE92008749A6 /* Feeds.m */,
+				A25E94CD1AA5AE92008749A6 /* RowModel.h */,
+				A25E94CC1AA5AE92008749A6 /* RowModel.m */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A25E94FB1AA5AE92008749A6 /* DropBoxContentViewController.m in Sources */,
-				A25E94F91AA5AE92008749A6 /* Feeds.m in Sources */,
+				A25E94F91AA5AE92008749A6 /* RowModel.m in Sources */,
 				A25E94A91AA5ADCC008749A6 /* AppDelegate.m in Sources */,
 				A25E94FA1AA5AE92008749A6 /* JsonTableViewCell.m in Sources */,
 				A25E94F81AA5AE92008749A6 /* OverViewModel.m in Sources */,

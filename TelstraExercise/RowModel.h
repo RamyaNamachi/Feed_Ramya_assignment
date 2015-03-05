@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface Feeds : NSObject<NSCopying>
+@interface RowModel : NSObject<NSCopying>
 
 @property(nonatomic,retain) NSString *feedsTitle;
 @property(nonatomic,retain) NSString *feedsDescription;

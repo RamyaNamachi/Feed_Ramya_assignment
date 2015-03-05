@@ -6,11 +6,11 @@
  #import <Foundation/Foundation.h>
 
  
-@class Feeds;
+@class RowModel;
 
 @interface ImageDownloadClient : NSObject
 
-@property (nonatomic, strong) Feeds *appRecord;
+@property (nonatomic, strong) RowModel *appRecord;
 @property (nonatomic, copy) void (^completionHandler)(void);
 
 - (void)startDownload;

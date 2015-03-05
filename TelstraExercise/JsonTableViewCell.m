@@ -6,7 +6,7 @@
 //  custom tableview cell
 
 #import "JsonTableViewCell.h"
-#import "Feeds.h"
+#import "RowModel.h"
 
 
 

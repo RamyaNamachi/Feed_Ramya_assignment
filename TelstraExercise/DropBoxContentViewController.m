@@ -12,7 +12,7 @@
 #import "JsonTableViewCell.h"
 #import "ImageDownloadClient.h"
 
-#import "Feeds.h"
+#import "RowModel.h"
 static NSString *CellIdentifier = @"Cell";
 
 @interface DropBoxContentViewController ()
@@ -61,7 +61,7 @@ static NSString *CellIdentifier = @"Cell";
                 //assign and reuse
                 if(!([rowDict objectForKey:@"title"]==(id)[NSNull null] && [rowDict objectForKey:@"description"]==(id)[NSNull null]&& [rowDict objectForKey:@"imageHref"]==(id)[NSNull null])){
                     
-                    Feeds *records = [[Feeds alloc] init];
+                    RowModel *records = [[RowModel alloc] init];
                     if([records containsAllElements:rowDict]){
                         
                         [jsonArrayOfRowsFromDict addObject:records];
@@ -198,7 +198,7 @@ static NSString *CellIdentifier = @"Cell";
 // -------------------------------------------------------------------------------
 //	startIconDownload:forIndexPath:
 // -------------------------------------------------------------------------------
-- (void)startIconDownload:(Feeds *)appRecord forIndexPath:(NSIndexPath *)indexPath
+- (void)startIconDownload:(RowModel *)appRecord forIndexPath:(NSIndexPath *)indexPath
 {
     ImageDownloadClient *iconDownloader = (self.imageDownloadsInProgress)[indexPath];
     if (iconDownloader == nil)
@@ -234,7 +234,7 @@ static NSString *CellIdentifier = @"Cell";
         NSArray *visiblePaths = [self.tableView indexPathsForVisibleRows];
         for (NSIndexPath *indexPath in visiblePaths)
         {
-            Feeds *appRecord = (self.data.feeds)[indexPath.row];
+            RowModel *appRecord = (self.data.feeds)[indexPath.row];
             if(![appRecord.feedsImage isEqualToString:@""]){
                 
                 if (!appRecord.appIcon)

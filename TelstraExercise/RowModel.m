@@ -5,16 +5,16 @@
 //  Copyright (c) 2015 cognizant. All rights reserved.
 //  Data structure to load rows
 
-#import "Feeds.h"
+#import "RowModel.h"
 
 
-@interface Feeds(){
+@interface RowModel(){
     
 }
 
 @end
 
-@implementation Feeds
+@implementation RowModel
 
 static NSString * const kTitleName = @"title";
 static NSString * const kDescription = @"description";
@@ -31,7 +31,7 @@ static NSString * const kImageHref = @"imageHref";
 
 -(id)copyWithZone:(NSZone *)zone
 {
-    Feeds *copy=[[self class] allocWithZone:zone];
+    RowModel *copy=[[self class] allocWithZone:zone];
     copy.feedsTitle=self.feedsTitle;
     copy.feedsImage=self.feedsImage;
     copy.feedsDescription=self.feedsDescription;

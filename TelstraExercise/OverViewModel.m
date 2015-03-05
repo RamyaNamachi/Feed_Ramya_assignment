@@ -6,7 +6,7 @@
 //  Data structure to load the dictionary from dropbox
 
 #import "OverViewModel.h"
-#import "Feeds.h"
+#import "RowModel.h"
 
 @implementation OverViewModel
 
