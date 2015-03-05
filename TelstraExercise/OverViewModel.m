@@ -1,10 +1,9 @@
 //
 //  OverViewModel.h
-//  Telstra
-//
-// Created by Ramya on 03/03/15.
+
+//  Created by Ramya on 03/03/15.
 //  Copyright (c) 2015 Cognizant. All rights reserved
-//
+//  Data structure to load the dictionary from dropbox
 
 #import "OverViewModel.h"
 #import "Feeds.h"

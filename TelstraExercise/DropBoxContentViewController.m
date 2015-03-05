@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  Telstra
-//Created by ramya on 03.03/15.
+
+//  Created by ramya on 03.03/15.
+//  Main View controller to load the json data into tableview
 //  Copyright (c) 2015 cognizant. All rights reserved.
 //
 
 #import "DropBoxContentViewController.h"
 
-//#import "AFNetworking.h"
 #import "OverViewModel.h"
 #import "JsonTableViewCell.h"
 #import "ImageDownloadClient.h"

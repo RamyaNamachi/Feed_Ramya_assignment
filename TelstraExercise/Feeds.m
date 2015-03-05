@@ -1,10 +1,9 @@
 //
 //  Feeds.m
-//  Telstra
-//
-//Created by ramya on 03/03/15.
+
+//  Created by ramya on 03/03/15.
 //  Copyright (c) 2015 cognizant. All rights reserved.
-//
+//  Data structure to load rows
 
 #import "Feeds.h"
 
@@ -68,6 +67,8 @@ static NSString * const kImageHref = @"imageHref";
     
     if ([ self isValidString:[attributes valueForKeyPath:kDescription]]) {
         self.feedsDescription = [attributes valueForKeyPath:kDescription];
+        NSRange range = [self.feedsDescription rangeOfString:@"^\\s*" options:NSRegularExpressionSearch];
+        self.feedsDescription = [self.feedsDescription stringByReplacingCharactersInRange:range withString:@""];
     }
     else{
         self.feedsDescription = @"";

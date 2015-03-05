@@ -1,6 +1,7 @@
 /*
      File: ImageDownloadClient.m
-  */
+     load images for visible cells
+*/
 
 #import "ImageDownloadClient.h"
 #import "Feeds.h"

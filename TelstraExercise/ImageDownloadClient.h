@@ -1,7 +1,8 @@
+/*
+    File: ImageDownloadClient.m
+    load images for visible cells
+*/
 
-   //  File: ImageDownloadClient.h
-   // load images for visible cells
- 
  #import <Foundation/Foundation.h>
 
  
